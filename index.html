@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Clothing Business</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>YABADABADOO</h1>
+            <p>Thimphu, Bhutan</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                    <a href="#categories">Categories <i class="fas fa-chevron-down"></i></a>
+                    <div class="dropdown-content">
+                        <a href="#ladies">Ladies</a>
+                        <a href="#gents">Gents</a>
+                    </div>
+                </li>
+                <li><a href="#attributes">Attributes</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h2>Inspired by Tiger</h2>
+                <p>Premium clothing store in Thimphu</p>
+                <a href="#categories" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>About our Company</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="C:\Users\user\Downloads\istockphoto-2157413149-1024x1024.jpg" alt="Chandra Kumar Ghalley">
+                </div>
+                <div class="about-text">
+                    <h3>Chandra Kumar Ghalley</h3>
+                    <p>Welcome to my clothing business in Phuentsholing, Bhutan. Inspired by the elegance and style of HONEYMOON, I aim to bring high-quality fashion to our community. With a passion for style and customer satisfaction, I carefully select each piece in our collection.</p>
+                    <p>Our store offers a wide range of clothing options for both ladies and gentlemen, ensuring you'll find the perfect outfit for any occasion.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Section -->
+        <section id="categories" class="section">
+            <h2>Categories</h2>
+            <div class="category-tabs">
+                <button class="tab-btn active" data-tab="ladies">Ladies</button>
+                <button class="tab-btn" data-tab="gents">Gents</button>
+            </div>
+            
+            <div id="ladies" class="tab-content active">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/250x350" alt="Ladies Dress 1">
+                        <h3>Elegant Dress</h3>
+                        <p class="price">Nu. 1,500</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/250x350" alt="Ladies Dress 2">
+                        <h3>Summer Blouse</h3>
+                        <p class="price">Nu. 1,200</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/250x350" alt="Ladies Dress 3">
+                        <h3>Traditional Kira</h3>
+                        <p class="price">Nu. 2,500</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="gents" class="tab-content">
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/250x350" alt="Gents Shirt 1">
+                        <h3>Formal Shirt</h3>
+                        <p class="price">Nu. 1,200</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/250x350" alt="Gents Shirt 2">
+                        <h3>Casual T-Shirt</h3>
+                        <p class="price">Nu. 800</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="https://via.placeholder.com/250x350" alt="Gents Shirt 3">
+                        <h3>Traditional Gho</h3>
+                        <p class="price">Nu. 3,000</p>
+                        <button class="btn">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Attributes Section -->
+        <section id="attributes" class="section">
+            <h2>Attributes</h2>
+            <div class="attributes-container">
+                <div class="attribute-box">
+                    <h3>Sizes Available</h3>
+                    <div class="size-options">
+                        <span class="size-option">S</span>
+                        <span class="size-option">M</span>
+                        <span class="size-option">L</span>
+                        <span class="size-option">XL</span>
+                    </div>
+                </div>
+                <div class="attribute-box">
+                    <h3>Colors Available</h3>
+                    <div class="color-options">
+                        <span class="color-option" style="background-color: green;"></span>
+                        <span class="color-option" style="background-color: white; border: 1px solid #ccc;"></span>
+                        <span class="color-option" style="background-color: black;"></span>
+                        <span class="color-option" style="background-color: grey;"></span>
+                        <span class="color-option" style="background-color: red;"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-tshirt"></i>
+                    <h3>Quality Clothing</h3>
+                    <p>We offer high-quality garments sourced from trusted suppliers.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-exchange-alt"></i>
+                    <h3>Easy Returns</h3>
+                    <p>Not satisfied? We offer easy returns within 7 days of purchase.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-ruler-combined"></i>
+                    <h3>Custom Tailoring</h3>
+                    <p>Need alterations? We provide custom tailoring services.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-truck"></i>
+                    <h3>Local Delivery</h3>
+                    <p>Free delivery within Phuentsholing for orders above Nu. 2,000.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Us</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Get in Touch</h3>
+                    <p><i class="fas fa-user"></i> Chandra Kumar Ghalley</p>
+                    <p><i class="fas fa-phone"></i> 17548335 / 77767111</p>
+                    <p><i class="fas fa-envelope"></i> ghalleychandrakumar@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Phuentsholing, Bhutan</p>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>GHALLEY FASHION</h3>
+                <p>Inspired by HONEYMOON</p>
+                <p>Premium clothing store in Phuentsholing, Bhutan</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-phone"></i> 17548335 / 77767111</p>
+                <p><i class="fas fa-envelope"></i> ghalleychandrakumar@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Chandra Kumar Ghalley. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
